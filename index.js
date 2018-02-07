@@ -19,6 +19,7 @@ express()
       .evaluate(() => document.querySelector('#r1-0 a.result__a').href)
       .end()
       .then(console.log)
+      .then(console.log('oh hans'))
       .catch((error) => {
         console.error('Search failed:', error);
       })
