@@ -4,7 +4,7 @@
   "description": "Simple scafffold for Nightmare.js ",
   "main": "index.js",
   "scripts": {
-    "test-all": ""
+    "test-all": "ENV=www mocha --require babel-register test/*.js"
   },
   "repository": {
     "type": "git",
